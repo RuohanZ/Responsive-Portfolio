@@ -1,73 +1,131 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF -8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RuohanZ Home</title>
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruohan Zhang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="assets/java/script.js"></script>
 </head>
 
 <body>
-    <header class="clearfix">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey darken-3">
+                <p class="brand-logo" id="logo"> RuohanZ</p>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="mailto:ruohan.zhang@outlook.com">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-        <div class="content">
-            <h1>Ruohan Zhang</h1>
-            <div class="navbar">
-            <h2 id="contact">
-                <a href="contact.html">Contact</a>
-            </h2>
-            <h2 id="portfolio">
-                <a href="protfolio.html">Portfolio</a>
-            </h2>
-            <h2 id="about">
-                <a href="index.html">About</a>
-            </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col s7 push-s6 greetingdiv">
+                <span class="flow-text greeting">Hi, I'm Ruohan Zhang</span>
+            </div>
+            <div class="col s5 pull-s6 profilePic">
+                <img class="responsive-img" src="http://via.placeholder.com/500x600">
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col s7 push-s2" id="brandStatediv">
+                <div class="row">
+                    <div "col s12">
+                        <span class="flow-text brandState">Computer Science major who enjoys solving programming challenges in unique ways.
+                            <br> Passionate about bringing ideas to life through the use of skills like Java and Python.</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div "col s12">
+                        <a href="https://github.com/RuohanZ">
+                            <img class="icon" src="assets/images/GitHub-Mark-120px-plus.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ruohan-zhang-21505113b/">
+                            <img class="icon" src="assets/images/In-Black-101px-R.png">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </header>
+        <div class="row">
+        <div class="col s12" id="projects">
+            <h3>Projects</h3>
+        <div class="carousel">
+                <div class="card carousel-item">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/artTrivia.jpeg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Art Trivia Game<i class="material-icons right">more_vert</i></span>
+                          <br>
+                          <p><a href="https://ruohanz.github.io/TriviaGame/">To The Page</a></p>
+                          <br>
+                          <p><a href="https://github.com/RuohanZ/TriviaGame"><i class="small material-icons">code</i></a></p>
 
-
-    <div class="content">
-        <div class="main-content">
-            <section id="content-head">
-                <h3>About me</h3>
-            </section>
-
-            <section id="content-main" class="clearfix">
-
-                <img id="bio-image" src="assets/images/bio.jpeg" alt="Ruohan's face" />
-
-                <section id="bio-para">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolores, quam minus natus odit eos. Facere
-                        distinctio, a quae nemo natus et id dicta laboriosam ut itaque totam praesentium quidem! Lorem ipsum
-                        dolor sit amet consectetur adipisicing elit. Nobis enim quasi ullam! Nesciunt assumenda dolores sint
-                        impedit maxime, delectus quasi. Rerum eius placeat, incidunt tenetur minus pariatur ex doloremque
-                        voluptatem?</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sequi tempora, laudantium culpa
-                        voluptatem deleniti ex porro vero, explicabo tenetur necessitatibus magni. Aspernatur soluta neque
-                        sit. Veniam, voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sequi est
-                        officia, iusto earum minima animi, eius mollitia esse quos cumque consequatur expedita eligendi incidunt
-                        fugit eum dicta quas ullam. </p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam sequi tempora, laudantium culpa
-                        voluptatem deleniti ex porro vero, explicabo tenetur necessitatibus magni. Aspernatur soluta neque
-                        sit. Veniam, voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                </section>
-            </section>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Art Trivia Game<i class="material-icons right">close</i></span>
+                          <br>
+                          <p>This is a Trivia Game.</p>
+                        </div>
+                </div>
+                <div class="card carousel-item">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/spaceHub.jpeg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">SpaceHub<i class="material-icons right">more_vert</i></span>
+                          <br>
+                          <p><a href="https://hankzimmer7.github.io/SpaceHub/">To The Page</a></p>
+                          <br>
+                          <p><a href="https://github.com/hankzimmer7/SpaceHub"><i class="small material-icons">code</i></a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">SpaceHub<i class="material-icons right">close</i></span>
+                          <br>
+                          <p>Spacehub is an aggregator for all things space related. It provides quick access to information on what may be visible in the night sky, 
+                              and whether or not it will be clear enough to see those celestial objects. It also provides information about upcoming launches with countdown timers. </p>
+                        </div>
+                </div>
+                <div class="card carousel-item">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/wordgame.jpeg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Word Guess Game<i class="material-icons right">more_vert</i></span>
+                          <p><a href="https://ruohanz.github.io/Word-Guess-Game/">To The Page</a></p>
+                          <p><a href="https://github.com/RuohanZ/Word-Guess-Game"><i class="small material-icons">code</i></a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Word Guess Game<i class="material-icons right">close</i></span>
+                          <br>
+                          <p>This is a college-subjects-theme word guess game.</p>
+                        </div>
+                </div>
+                
+               
+              </div>
+        </div>
         </div>
     </div>
-
-    <footer>
-        Copyright&copy;
-    </footer>
-
-
 </body>
 
 </html>
